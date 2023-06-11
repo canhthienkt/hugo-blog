@@ -2,5 +2,7 @@
 title: "About"
 layout: "about"
 ---
+## About me
 
-Hello, my name is Thien Nguyen. I'm a software developer at Tyson Foods.
+I am Thien Nguyen. I'm a software developer at Tyson foods.
+
