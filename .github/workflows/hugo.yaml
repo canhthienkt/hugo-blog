@@ -49,7 +49,7 @@ jobs:
       - name: Deploy
         # if: github.ref == 'refs/heads/main'
         run: |
-          mkdir /built-site/
+          mkdir $GITHUB_WORKSPACE/built-site
           cp -R public/* /built-site/
           cd /built-site
           git add .
