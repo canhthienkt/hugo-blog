@@ -50,8 +50,8 @@ jobs:
         # if: github.ref == 'refs/heads/main'
         run: |
           mkdir $GITHUB_WORKSPACE/built-site
-          cp -R public/* /built-site/
-          cd /built-site
+          cp -R public/* $GITHUB_WORKSPACE/built-site
+          cd $GITHUB_WORKSPACE/built-site
           git add .
           git config user.name 'canhthienkt'
           git config user.email 'canhthienkt2014@gmail.com'
