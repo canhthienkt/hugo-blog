@@ -7,7 +7,6 @@ weight: 1
 aliases: ["/papermod-installation"]
 tags: ["PaperMod"]
 author: "Aditya Telange"
-draft: True
 ---
 
 ## Intro
