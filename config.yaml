@@ -103,7 +103,7 @@ params:
 
     label:
         text: "Thien Nguyen"
-        icon: headshot.jpg
+        # icon: headshot.jpg
         iconHeight: 35
 
     # analytics:
