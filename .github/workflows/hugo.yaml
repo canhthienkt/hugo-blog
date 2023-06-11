@@ -22,7 +22,7 @@ defaults:
 
 jobs:
   # Build job
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.111.3
@@ -47,7 +47,7 @@ jobs:
         run: ${RUNNER_TEMP}/hugo
       
       - name: Deploy
-        if: github.ref == 'refs/heads/main'
+        # if: github.ref == 'refs/heads/main'
         run: |
           cp -R public/* /built-site/
           cd /built-site
