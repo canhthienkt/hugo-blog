@@ -72,8 +72,8 @@ params:
 
     profileMode:
         enabled: true
-        title: Thien Nguyen
-        imageUrl: "headshot.jpg"
+        title: Thien Nguyen - Developer Blog
+        imageUrl: "headshot-cover.jpg"
         imageTitle: profile picture
         imageWidth: 220
         imageHeight: 220
@@ -102,7 +102,7 @@ params:
         image: "headshot.jpg"
 
     label:
-        text: "Thien Nguyen"
+        text: "Thien Nguyen - Developer Blog"
         # icon: headshot.jpg
         iconHeight: 35
 
