@@ -75,7 +75,6 @@ params:
         title: Thien Nguyen - Developer Blog
         imageUrl: "headshot-cover.jpg"
         imageTitle: profile picture
-        image: "headshot.jpg"
         imageWidth: 220
         imageHeight: 220
         subtitle: "💻 Software Developer @ Tyson Foods | 🤖 Deep Learning | 🧑‍💻 Full-stack development"
